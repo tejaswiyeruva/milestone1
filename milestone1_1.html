@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number.</h1>
+<p id="demo"></p>
+<script>
+let s=Math.floor(Math.random() * 11);;
+document.getElementById("demo").innerHTML =s;
+gs=8;
+let greeting;
+
+if (s <gs ) {
+  greeting = "Matched";
+}
+else {
+  greeting = "Not Matched";
+}
+
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>
